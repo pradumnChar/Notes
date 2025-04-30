@@ -1,4 +1,4 @@
-const secret_key = "pradumn_notes";
+const secret_key = process.env.secret_key;
 
 //main key- for local storage that will ge provided to each user, 
 // to have their notes stored in their localStor
